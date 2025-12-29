@@ -1,0 +1,215 @@
+@charset "utf-8";
+.scenter {
+    clear: both;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+.sprod_listsy {
+    padding: 20px 10px;
+    background: #fff9f4;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    -icab-border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #f9e5d4;
+	overflow:hidden;
+	align-items: center;
+    clear: both;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+	
+}
+.sprod_listsy img{
+	width:100%;
+  transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+.sprod_listsy img:hover{
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.sprod_listsy a{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;  
+	-o-border-radius: 10px;   
+	-icab-border-radius: 10px;
+	overflow:hidden;
+	display:block;
+}
+.sprod_listsy:hover {
+	background: #fdf3e9;
+}
+.sprod_listsy .shopp{
+    display:inline-block;
+	padding:5px 20px;
+	margin:0 auto;
+	font-family:Arial;
+	color:#ffffff;
+	text-align:center;
+	border-radius:25px;
+	background: #e05d5d;
+	font-size:14px;
+	line-height: 23px;
+	margin: 0px 10px;
+	}
+.sprod_listsy .shopp:hover{
+	background:#ca2d2d;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	text-decoration:none;
+	color:#ffffff;
+	}
+.sprod_listsy  .detaike{
+    display:inline-block;
+	padding:5px 20px;
+	margin:0 auto;
+	font-family:Arial;
+	color:#ffffff;
+	text-align:center;
+	border-radius:25px;
+	background: #cc9d74;
+	font-size:14px;
+	line-height: 23px;	
+	}
+.sprod_listsy .detaike:hover{
+	background:#a6754a;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	text-decoration:none;
+	color:#ffffff;
+	}
+.nts{font-size:11px;}
+.sprod1 {
+	font-weight: bold;
+	font-size: 20px;
+	color:#4c4c4c;
+}
+.sprod1 a{
+	color:#4c4c4c;
+	padding:0px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;/*超出3行部分显示省略号，去掉该属性 显示全部*/
+	-webkit-box-orient: vertical;
+	margin:10px 0px;
+	height: 50px;
+	}
+.sprod1 a:hover{color:#000;}
+.sprod2 {
+    color: #4b4b4b;
+    font-size: 16px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    height: 80px;
+}
+.sprod_mores {
+	padding-top:5px;
+	margin-left: -10px;
+    margin-right: -10px;
+}
+.sprod_linksy{
+    font-size: 14px;
+    color: #b67841;
+	}
+.stitlek{
+	text-align:center;
+	}	
+.stitlek span{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    padding: 20px 40px;
+    background: #f4dcb7;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -icab-border-radius: 5px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+	}
+
+@media (max-width:767px) {
+.stitlek span{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    padding: 15px 30px;
+    background: #f4dcb7;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -icab-border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+	}
+.sprod_listsy .shopp{
+	padding:5px 10px;
+	}
+.sprod_listsy .detaike{
+	padding:5px 10px;
+	}
+.sprod_imgs{
+	padding:0px;
+}
+.sprod_padding {
+    padding-top: 0px;
+}
+
+}
+@media (max-width:639px) {
+.sprod_listsy .shopp{
+	padding:5px 15px;
+	}
+.sprod_listsy .detaike{
+	padding:5px 15px;
+	}
+.sprod1 {
+    padding-top: 10px;
+}
+.sprod_listsy{
+	text-align:center;
+	}
+.sprod2 {
+    height: auto;
+}
+.sprod1 a{
+   height: auto;
+	}
+}
+.sclearK{
+	clear:both;
+	}
+.subtitle1 h1{font-size:1em; margin:0; display:inline-block; font-weight:bold;}
+.subtitle2 h1{font-size:1em; margin:0;}
+.subtitle3 h1{font-size:1em; margin:0;}
